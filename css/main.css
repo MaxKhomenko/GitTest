@@ -19,7 +19,7 @@ img, .video {
   width: 550px;
 }
 
-.image-space, .video {
+.image-space, .video, .image-photo, .list {
   float: left;
   margin-right: 20px;
 }
