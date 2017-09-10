@@ -28,7 +28,7 @@ img, .video {
   font-size: 14px;
 }
 
-.image-tree {
+.image-tree, .image-clothes {
   float: right;
   margin-left: 20px;
 }
