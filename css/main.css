@@ -1,0 +1,35 @@
+body {
+  font-family: arial;
+}
+
+
+
+
+address {
+  width: 250px;
+  outline: 1px solid black;
+}
+.address-block {
+  padding: 5px;
+  width: 100%;
+}
+
+.address-block-label {
+  display: inline-block;
+  width: 35%;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+
+.address-block-link {
+  display: inline-block;
+  width: 60%;
+  color: darkred;
+}
+
+aside: {
+  border-radius: 100% 100% 100% 100%;
+  background: url();
+  width: 180px;
+  height: 180px;
+}
