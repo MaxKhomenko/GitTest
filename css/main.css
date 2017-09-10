@@ -6,26 +6,44 @@ body {
   margin: 0 300px 0 300px;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 p {
   text-indent: 30px;
   margin-bottom: px;
 }
 
+img {
+  width: 550px;
+}
+
 .image-space {
   float: left;
-  width: 550px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .signature {
   font-size: 14px;
 }
 
+.image-tree {
+  float: right;
+  margin-left: 20px;
+}
+
+hr {
+  margin-bottom: 50px;
+}
+
+
+
+
 address {
   width: 250px;
   outline: 1px solid black;
 }
-
 .address-block {
   padding: 5px;
   width: 100%;
