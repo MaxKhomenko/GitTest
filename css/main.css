@@ -15,11 +15,11 @@ p {
   margin-bottom: px;
 }
 
-img {
+img, .video {
   width: 550px;
 }
 
-.image-space {
+.image-space, .video {
   float: left;
   margin-right: 20px;
 }
@@ -32,6 +32,7 @@ img {
   float: right;
   margin-left: 20px;
 }
+
 
 hr {
   margin-bottom: 50px;
