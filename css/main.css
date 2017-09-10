@@ -1,18 +1,37 @@
 body {
-  font-family: arial;
-  font-size: 20px;
+  font-family: aria;
   text-align: justify;
+  text-transform: none;
   padding: 0;
   margin: 0 300px 0 300px;
+
 }
 
 h1, h2 {
+  font-family: britannic bold;
   text-align: center;
+
+}
+
+h1 {
+  font-size: 70px;
+  text-transform: capitalize;
+  margin-bottom: -15px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.shadow {
+  box-shadow: 0px 0px 0px;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
 p {
   text-indent: 30px;
-  margin-bottom: px;
+  font-size: 21px;
 }
 
 img, .video {
@@ -24,43 +43,14 @@ img, .video {
   margin-right: 20px;
 }
 
-.signature {
-  font-size: 14px;
-}
-
 .image-tree, .image-clothes {
   float: right;
   margin-left: 20px;
 }
 
-
-hr {
-  margin-bottom: 50px;
-}
-
-
-
-
 address {
-  width: 250px;
-  outline: 1px solid black;
-}
-.address-block {
-  padding: 5px;
-  width: 100%;
-}
-
-.address-block-label {
-  display: inline-block;
-  width: 35%;
-  font-weight: bold;
-  letter-spacing: 0.7px;
-}
-
-.address-block-link {
-  display: inline-block;
-  width: 60%;
-  color: darkred;
+  float: right;
+  margin: -40px 60px 20px 0px;
 }
 
 aside: {
@@ -71,5 +61,26 @@ aside: {
 }
 
 footer {
-  margin-top: 250px;
+ color: #fff;
+  background: #3b5998;
+  padding: 20px;
+  margin-top: 70px;
+  height: 130px;
+}
+
+#footer-technology {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  margin: 35px 0px 0px 200px;
+}
+
+#footer-mult {
+  margin-left: 180px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
